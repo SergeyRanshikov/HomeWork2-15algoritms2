@@ -9,8 +9,8 @@ public class IntegerListImpl implements IntegerList {
     private final Integer[] storage;
     private int size;
 
-    public IntegerListImpl(Integer[][] Integer) {
-        storage = Integer[10];
+    public IntegerListImpl() {
+        storage = new Integer[10];
     }
 
         public IntegerListImpl(int initSize) {
